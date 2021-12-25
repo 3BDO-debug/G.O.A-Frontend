@@ -25,10 +25,12 @@ function MyApp({ Component, pageProps }) {
       <GalleryProvider>
         <ClassesProvider>
           <TeachersProvider>
-            <div className="app">
+            <div className="app ">
               <Navbar />
               <SimpleReactLightbox>
-                <Component {...pageProps} />
+                <div className="container">
+                  <Component {...pageProps} />
+                </div>
               </SimpleReactLightbox>
 
               <Footer />

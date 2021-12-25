@@ -8,7 +8,13 @@ import Image from "next/image";
 import banner from "../../assets/images/banner.svg";
 import kid1 from "../../assets/images/kid1.svg";
 import kid2 from "../../assets/images/kid2.svg";
-import { MotionInView, varFadeIn } from "../animate";
+import {
+  MotionInView,
+  varFadeIn,
+  varFadeInLeft,
+  varFadeInRight,
+} from "../animate";
+import Link from "next/link";
 
 const ModalVideo = dynamic(() => import("react-modal-video"), { ssr: false });
 
@@ -72,60 +78,63 @@ const Slider = () => {
     setClickVideo(vid);
   };
   return (
-    <div className="slider__wrapper">
-      <div className="container">
-        <div className="row row__reverce">
-          <div className="col-lg-6">
-            <div className="slider__inner">
-              <ModalVideo
-                channel="youtube"
-                youtube={{
-                  autoplay: 0,
-                }}
-                isOpen={isOpen}
-                videoId={clickVideo}
-                onClose={() => setOpen(false)}
-              />
-              <Slider1 {...settings}>
-                {SliderContents.map((SliderContent, i) => (
-                  <div className="single__slider" key={i}>
-                    <div className="video__modal">
-                      {SliderContent.vid !== "" && (
-                        <button
-                          className="btn video__btn"
-                          onClick={() => videoHandle(SliderContent.vid)}
-                        >
-                          <FontAwesomeIcon icon={["fas", "play"]} />
-                        </button>
-                      )}
+    <MotionInView variants={varFadeInLeft}>
+      <div className="slider__wrapper">
+        <div className="container">
+          <div className="row row__reverce">
+            <div className="col-lg-6">
+              <div className="slider__inner">
+                <ModalVideo
+                  channel="youtube"
+                  youtube={{
+                    autoplay: 0,
+                  }}
+                  isOpen={isOpen}
+                  videoId={clickVideo}
+                  onClose={() => setOpen(false)}
+                />
+                <Slider1 {...settings}>
+                  {SliderContents.map((SliderContent, i) => (
+                    <div className="single__slider" key={i}>
+                      <div className="video__modal">
+                        {SliderContent.vid !== "" && (
+                          <button
+                            className="btn video__btn"
+                            onClick={() => videoHandle(SliderContent.vid)}
+                          >
+                            <FontAwesomeIcon icon={["fas", "play"]} />
+                          </button>
+                        )}
+                      </div>
+                      <h1>
+                        <span className="above__title">
+                          {SliderContent.h1a}{" "}
+                        </span>
+                        {SliderContent.h1}
+                      </h1>
+                      <p className="slider__para">{SliderContent.p}</p>
                     </div>
-                    <h1>
-                      <span className="above__title">{SliderContent.h1a} </span>
-                      {SliderContent.h1}
-                    </h1>
-                    <p className="slider__para">{SliderContent.p}</p>
-                    <div className="slider__btns">buttons</div>
-                  </div>
-                ))}
-              </Slider1>
+                  ))}
+                </Slider1>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <MotionInView variants={varFadeIn}>
+                <div className="slider__image">
+                  <Image src={banner} alt="" className="img-fluid" />
+                </div>
+              </MotionInView>
             </div>
           </div>
-          <div className="col-lg-6">
-            <MotionInView variants={varFadeIn}>
-              <div className="slider__image">
-                <Image src={banner} alt="" className="img-fluid" />
-              </div>
-            </MotionInView>
-          </div>
+        </div>
+        <div className="slider__side__color">
+          <Image src={kid2} alt="kid2" />
+        </div>
+        <div className="slider__side__color1">
+          <Image src={kid1} alt="kid1" />
         </div>
       </div>
-      <div className="slider__side__color">
-        <Image src={kid2} alt="kid2" />
-      </div>
-      <div className="slider__side__color1">
-        <Image src={kid1} alt="kid1" />
-      </div>
-    </div>
+    </MotionInView>
   );
 };
 export default Slider;

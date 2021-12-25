@@ -437,6 +437,7 @@ ul.mega li a {
   background: linear-gradient(to right, rgb(77, 144, 188), rgb(20, 126, 177));
   padding: 80px 0;
   position: relative;
+  padding: 30px 0 30px 0;
 }
 
 .slider__wrapper .single__slider {
@@ -452,7 +453,7 @@ ul.mega li a {
 .slider__side__color1 {
   position: absolute;
   top: 45%;
-  right: 50%;
+  right: 43%;
 }
 
 .slider__inner .cmn__btn {
@@ -939,22 +940,8 @@ p.learn__contnet2 {
   position: relative;
 }
 
-.more__service a:hover {
+.more__service a svg:hover {
   color: #fff;
-}
-
-.more__service a:after {
-  position: absolute;
-  content: "";
-  height: 100%;
-  width: 100%;
-  left: 0;
-  top: 0;
-  background: linear-gradient(to right, rgb(77, 144, 188), rgb(20, 126, 177));
-  color: #fff !important;
-  z-index: -1;
-  transform: scale(0);
-  transition: all linear 0.3s;
 }
 
 .more__service a:hover::after {
@@ -976,12 +963,12 @@ p.learn__contnet2 {
 }
 
 .why__right__back {
-  background: #235c51;
+  background: linear-gradient(to bottom, rgb(77, 144, 188), rgb(20, 126, 177));
 }
 
 .why__right {
   padding: 80px 62px;
-  background: #235c51;
+  background: linear-gradient(to bottom, rgb(77, 144, 188), rgb(20, 126, 177));
   color: #fff;
   width: 674px;
 }
@@ -1020,7 +1007,7 @@ p.learn__contnet2 {
   position: absolute;
   top: 45%;
   left: 45%;
-  background: #fff;
+  background: linear-gradient(to right, rgb(77, 144, 188), rgb(20, 126, 177));
   color: linear-gradient(
     to right,
     rgb(77, 144, 188),
@@ -1034,12 +1021,7 @@ p.learn__contnet2 {
   color: #fff;
   font-size: 19px;
 }
-.why__img .video__btn:hover {
-  background: #ff564f;
-}
-.why__img .video__btn:hover svg {
-  color: #fff;
-}
+
 /*=======================================================================================
                 6  :-Teacher-:
 *=============================================================================================*/
@@ -1079,17 +1061,6 @@ p.learn__contnet2 {
   display: inline-flex;
 }
 
-.teacher__content:hover {
-  height: 28%;
-}
-
-.teacher__content:hover .teacher__content__in {
-  transition: all linear 0.2s;
-  -webkit-transition: all linear 0.2s;
-  -moz-transition: all linear 0.2s;
-  transform: translateY(0px);
-}
-
 .teacher__content:hover ul.teacher__social {
   visibility: visible;
 }
@@ -1098,10 +1069,6 @@ ul.teacher__social {
   display: flex;
   justify-content: center;
   visibility: hidden;
-}
-
-.teacher__content__in {
-  transform: translateY(18px);
 }
 
 ul.teacher__social li {
@@ -1258,6 +1225,7 @@ ul.teacher__social li {
   left: 0;
   top: 0;
   background: #fff;
+  color: #f44d19;
   z-index: -1;
   transform: scale(0);
   transition: all linear 0.3s;
@@ -1265,6 +1233,8 @@ ul.teacher__social li {
 
 .joinsession__wrapper a.session__join:hover::after {
   transform: scale(1);
+  background: transparent;
+  color: #f44d19;
 }
 
 .joinsession__wrapper a.session__join svg {

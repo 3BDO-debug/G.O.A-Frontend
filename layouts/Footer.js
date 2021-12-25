@@ -104,7 +104,11 @@ const Footer = () => {
           <div className="col-lg-12 text-center">
             <p className="copy__right">
               ©2021 Gate of Angels powered by
-              <a href="https://codehustle.live" target="__blank">
+              <a
+                style={{ color: "#f44d19", marginLeft: "5px" }}
+                href="https://codehustle.live"
+                target="__blank"
+              >
                 Code Hustle
               </a>
             </p>

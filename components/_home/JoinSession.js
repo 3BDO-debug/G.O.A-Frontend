@@ -1,5 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Link from "next/link";
 
 const JoinSession = () => {
   return (
@@ -11,11 +12,12 @@ const JoinSession = () => {
             <h2 className="session__title">
               Call To Enroll Your Child +256 6425 789
             </h2>
-
-            <a to="/moreproject" className="session__join">
-              Call Us Now
-              <FontAwesomeIcon icon="caret-right" />
-            </a>
+            <Link href="/contact">
+              <a className="session__join">
+                Call Us Now
+                <FontAwesomeIcon icon="caret-right" />
+              </a>
+            </Link>
           </div>
         </div>
       </div>

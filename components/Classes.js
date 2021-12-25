@@ -4,21 +4,39 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
 import Link from "next/link";
 // material
-import { Avatar, IconButton } from "@mui/material";
-import VisibilityIcon from "@mui/icons-material/Visibility";
+import { Avatar } from "@mui/material";
 // contexts
 import { ClassesContext } from "../contexts";
 import { mainUrl } from "../__apis__/axios";
 // components
-import loading from "../assets/images/loading.gif";
+import side0 from "../assets/images/side0.svg";
 
-const Service = () => {
+const Classes = ({ discoverMore }) => {
   const classes = React.useContext(ClassesContext).classesState[0];
+  const [mappedClasses, setMappedClasses] = React.useState([]);
+
+  React.useEffect(() => {
+    if (discoverMore) {
+      let classesArrayLength;
+      if (classes.length > 1) {
+        classesArrayLength = classes.length / 2;
+      } else {
+        classesArrayLength = classes.length;
+      }
+      for (let index = 0; index < classesArrayLength; index++) {
+        setMappedClasses([...mappedClasses, classes[index]]);
+      }
+    } else {
+      for (let index = 0; index < classes.length; index++) {
+        setMappedClasses([...mappedClasses, classes[index]]);
+      }
+    }
+  }, [classes]);
 
   return (
     <div className="service__wrapper padding__top__botton">
       <div className="side__img__wal">
-        <Image width={30} height={30} src="/images/side0.svg" alt="side" />
+        <Image width={30} height={30} src={side0} alt="side" />
       </div>
       <div className="container">
         <div className="row">
@@ -38,7 +56,7 @@ const Service = () => {
           </div>
         </div>
         <div className="row">
-          {classes.map((activityClass) => (
+          {mappedClasses.map((activityClass) => (
             <div className="col-lg-4" key={activityClass.id}>
               <div className="single__service">
                 <div className="overly__shape"></div>
@@ -53,29 +71,23 @@ const Service = () => {
                   />
                 </div>
                 <div className="service__inner__content">
-                  <h4 className="service__title">details</h4>
+                  <h4 className="service__title">{activityClass.class_name}</h4>
                   <div className="service__blist__wr">
                     <ul className="service__blist">
                       <li>
                         <FontAwesomeIcon icon="book" />
-                        13 Lessons
+                        {activityClass.class_lessons} Lessons
                       </li>
                       <li>
                         <FontAwesomeIcon icon="user" />
-                        20 Students
-                      </li>
-                    </ul>
-                    <ul className="service__blist__one">
-                      <li>
-                        <FontAwesomeIcon icon="map-marker" />
-                        Alice Bohm , Linda Glendell
+                        {activityClass.class_students} Students
                       </li>
                     </ul>
                   </div>
                   <div className="service__enroll">
                     <Link href={`/class/${activityClass.id}`}>
                       <a href="/enroll">
-                        Enroll Now
+                        View more
                         <svg
                           aria-hidden="true"
                           focusable="false"
@@ -99,13 +111,21 @@ const Service = () => {
             </div>
           ))}
         </div>
-        <div className="row">
-          <div className="col-lg-12">
-            <div className="more__service text-center">discover more</div>
+        {discoverMore && (
+          <div className="row">
+            <div className="col-lg-12">
+              <div className="more__service text-center">
+                <Link href="/classes">
+                  <a>
+                    <p>discover more</p> <FontAwesomeIcon icon="caret-right" />
+                  </a>
+                </Link>
+              </div>
+            </div>
           </div>
-        </div>
+        )}
       </div>
     </div>
   );
 };
-export default Service;
+export default Classes;

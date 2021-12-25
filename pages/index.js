@@ -2,8 +2,8 @@ import React from "react";
 // components
 import Slider from "../components/_home/Slider";
 import LearnAbout from "../components/_home/LearnAbout";
-import Service from "../components/Service";
-import WhyRegister from "../components/whyRegister/WhyRegister";
+import Classes from "../components/Classes";
+import WhyRegister from "../components/_home/WhyRegister";
 import Teachers from "../components/teachers/Teachers";
 import JoinSession from "../components/_home/JoinSession";
 import { MotionInView, varFadeInUp } from "../components/animate";
@@ -16,11 +16,10 @@ const Home = () => {
         <LearnAbout />
       </MotionInView>
       <MotionInView variants={varFadeInUp}>
-        <Service />
+        <Classes discoverMore />
       </MotionInView>
-      <MotionInView variants={varFadeInUp}>
-        <WhyRegister />
-      </MotionInView>
+
+      <WhyRegister />
       <MotionInView variants={varFadeInUp}>
         <Teachers />
       </MotionInView>

@@ -45,30 +45,6 @@ const Teachers = () => {
                     <div className="teacher__content__in">
                       <h5>{teacher.teacher_name}</h5>
                       <h6>{teacher.title}</h6>
-                      <div className="teacher__social__wrapper">
-                        <ul className="teacher__social">
-                          <li>
-                            <a href="www.factbook.com">
-                              <FontAwesomeIcon icon={["fab", "facebook-f"]} />
-                            </a>
-                          </li>
-                          <li>
-                            <a href="www.factbook.com">
-                              <FontAwesomeIcon icon={["fab", "twitter"]} />
-                            </a>
-                          </li>
-                          <li>
-                            <a href="www.factbook.com">
-                              <FontAwesomeIcon icon={["fab", "linkedin-in"]} />
-                            </a>
-                          </li>
-                          <li>
-                            <a href="www.factbook.com">
-                              <FontAwesomeIcon icon={["fab", "instagram"]} />
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
                     </div>
                   </div>
                 </div>
