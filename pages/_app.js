@@ -28,7 +28,7 @@ function MyApp({ Component, pageProps }) {
             <div className="app ">
               <Navbar />
               <SimpleReactLightbox>
-                <div className="container">
+                <div>
                   <Component {...pageProps} />
                 </div>
               </SimpleReactLightbox>

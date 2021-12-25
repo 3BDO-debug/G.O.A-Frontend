@@ -11,18 +11,20 @@ import { MotionInView, varFadeInUp } from "../components/animate";
 const Home = () => {
   return (
     <div className="home__wrapper">
-      <Slider />
-      <MotionInView variants={varFadeInUp}>
-        <LearnAbout />
-      </MotionInView>
-      <MotionInView variants={varFadeInUp}>
-        <Classes discoverMore />
-      </MotionInView>
+      <div className="container">
+        <Slider />
+        <MotionInView variants={varFadeInUp}>
+          <LearnAbout />
+        </MotionInView>
+        <MotionInView variants={varFadeInUp}>
+          <Classes discoverMore />
+        </MotionInView>
 
-      <WhyRegister />
-      <MotionInView variants={varFadeInUp}>
-        <Teachers />
-      </MotionInView>
+        <WhyRegister />
+        <MotionInView variants={varFadeInUp}>
+          <Teachers />
+        </MotionInView>
+      </div>
       <MotionInView variants={varFadeInUp}>
         <JoinSession />
       </MotionInView>

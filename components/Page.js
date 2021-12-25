@@ -3,7 +3,11 @@ import React from "react";
 import { MotionInView, varFadeInLeft } from "../components/animate";
 
 const Page = ({ children }) => {
-  return <MotionInView variants={varFadeInLeft}>{children}</MotionInView>;
+  return (
+    <MotionInView variants={varFadeInLeft}>
+      <div className="container">{children}</div>
+    </MotionInView>
+  );
 };
 
 export default Page;
