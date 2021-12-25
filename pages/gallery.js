@@ -44,8 +44,8 @@ const Gallery = () => {
           </div>
         </div>
         <div className="row">
-          {gallery.map((galleryImage) => (
-            <div className="col-lg-3">
+          {gallery.map((galleryImage, index) => (
+            <div className="col-lg-3" key={index}>
               <Avatar
                 onClick={() => {
                   setOpenedImageIndex(0);

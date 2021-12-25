@@ -72,7 +72,7 @@ const Service = () => {
                       </li>
                     </ul>
                   </div>
-                  <div class="service__enroll">
+                  <div className="service__enroll">
                     <Link href={`/class/${activityClass.id}`}>
                       <a href="/enroll">
                         Enroll Now
@@ -81,7 +81,7 @@ const Service = () => {
                           focusable="false"
                           data-prefix="fas"
                           data-icon="angle-right"
-                          class="svg-inline--fa fa-angle-right fa-w-8 "
+                          className="svg-inline--fa fa-angle-right fa-w-8 "
                           role="img"
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 256 512"
