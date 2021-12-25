@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="148.578" height="144.646" viewBox="0 0 148.578 144.646">
+    <defs>
+        <clipPath id="clip-path">
+            <circle id="Ellipse_21" cx="59.081" cy="59.081" r="59.081" fill="#ffab4a" stroke="#ffab4a" transform="rotate(-14.98 1281.143 -2350.086)"/>
+        </clipPath>
+        <style>
+            .cls-5{stroke:#ffab4a;fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px}
+        </style>
+    </defs>
+    <g id="Group_136" opacity="0.5" transform="translate(-649.881 -220.148)">
+        <circle id="Ellipse_20" cx="59" cy="59" r="59" fill="#ffab4a" opacity="0.18" transform="translate(680.458 223.617)"/>
+        <g id="Group_135">
+            <g id="Group_134" clip-path="url(#clip-path)">
+                <g id="Group_133">
+                    <path id="Line_19" d="M0 136.5L136.5 0" class="cls-5" transform="translate(551.844 224.221)"/>
+                    <path id="Line_20" d="M0 136.5L136.5 0" class="cls-5" transform="translate(560.723 224.221)"/>
+                    <path id="Line_21" d="M0 136.5L136.5 0" class="cls-5" transform="translate(569.602 224.221)"/>
+                    <path id="Line_22" d="M0 136.5L136.5 0" class="cls-5" transform="translate(578.481 224.221)"/>
+                    <path id="Line_23" d="M0 136.5L136.5 0" class="cls-5" transform="translate(587.36 224.221)"/>
+                    <path id="Line_24" d="M0 136.5L136.5 0" class="cls-5" transform="translate(596.239 224.221)"/>
+                    <path id="Line_25" d="M0 136.5L136.5 0" class="cls-5" transform="translate(605.118 224.221)"/>
+                    <path id="Line_26" d="M0 136.5L136.5 0" class="cls-5" transform="translate(613.998 224.221)"/>
+                    <path id="Line_27" d="M0 136.5L136.5 0" class="cls-5" transform="translate(622.877 224.221)"/>
+                    <path id="Line_28" d="M0 136.5L136.5 0" class="cls-5" transform="translate(631.756 224.221)"/>
+                    <path id="Line_29" d="M0 136.5L136.5 0" class="cls-5" transform="translate(640.635 224.221)"/>
+                    <path id="Line_30" d="M0 136.5L136.5 0" class="cls-5" transform="translate(649.514 224.221)"/>
+                    <path id="Line_31" d="M0 136.5L136.5 0" class="cls-5" transform="translate(658.393 224.221)"/>
+                    <path id="Line_32" d="M0 136.5L136.5 0" class="cls-5" transform="translate(667.272 224.221)"/>
+                    <path id="Line_33" d="M0 136.5L136.5 0" class="cls-5" transform="translate(676.151 224.221)"/>
+                    <path id="Line_34" d="M0 136.5L136.5 0" class="cls-5" transform="translate(685.031 224.221)"/>
+                    <path id="Line_35" d="M0 136.5L136.5 0" class="cls-5" transform="translate(693.91 224.221)"/>
+                    <path id="Line_36" d="M0 136.5L136.5 0" class="cls-5" transform="translate(702.789 224.221)"/>
+                    <path id="Line_37" d="M0 136.5L136.5 0" class="cls-5" transform="translate(711.668 224.221)"/>
+                    <path id="Line_38" d="M0 136.5L136.5 0" class="cls-5" transform="translate(720.547 224.221)"/>
+                    <path id="Line_39" d="M0 136.5L136.5 0" class="cls-5" transform="translate(729.426 224.221)"/>
+                    <path id="Line_40" d="M0 136.5L136.5 0" class="cls-5" transform="translate(738.305 224.221)"/>
+                    <path id="Line_41" d="M0 136.5L136.5 0" class="cls-5" transform="translate(747.185 224.221)"/>
+                    <path id="Line_42" d="M0 136.5L136.5 0" class="cls-5" transform="translate(756.064 224.221)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
