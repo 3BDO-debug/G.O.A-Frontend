@@ -8,12 +8,7 @@ import whyregister from "../../assets/images/whyregister.jpg";
 import school from "../../assets/images/school.png";
 import teacher from "../../assets/images/teacher.png";
 import book from "../../assets/images/book.png";
-import {
-  MotionInView,
-  varFadeInDown,
-  varFadeInLeft,
-  varFadeInUp,
-} from "../animate";
+import { MotionInView, varFadeInLeft, varFadeInUp } from "../animate";
 
 const ModalVideo = dynamic(() => import("react-modal-video"), { ssr: false });
 
@@ -32,12 +27,12 @@ const WhyRegister = () => {
               <div className="why__img">
                 <Image src={whyregister} alt="whyregister" />
                 <ModalVideo
-                  channel="youtube"
+                  channel="vimeo"
                   youtube={{
                     autoplay: 0,
                   }}
                   isOpen={isOpen}
-                  videoId="f02mOEt11OQ"
+                  videoId="667398102"
                   onClose={() => setOpen(false)}
                 />
                 <button

@@ -13,13 +13,13 @@ import side0 from "../assets/images/side0.svg";
 
 const Classes = ({ discoverMore }) => {
   const classes = React.useContext(ClassesContext).classesState[0];
-  const [mappedClasses, setMappedClasses] = React.useState([]);
+  //const [mappedClasses, setMappedClasses] = React.useState([]);
 
-  React.useEffect(() => {
+  /*   React.useEffect(() => {
     if (discoverMore) {
       let classesArrayLength;
       if (classes.length > 1) {
-        classesArrayLength = classes.length / 2;
+        classesArrayLength = classes.length;
       } else {
         classesArrayLength = classes.length;
       }
@@ -31,7 +31,7 @@ const Classes = ({ discoverMore }) => {
         setMappedClasses([...mappedClasses, classes[index]]);
       }
     }
-  }, [classes]);
+  }, [classes]); */
 
   return (
     <div className="service__wrapper padding__top__botton">
@@ -56,7 +56,7 @@ const Classes = ({ discoverMore }) => {
           </div>
         </div>
         <div className="row">
-          {mappedClasses.map((activityClass) => (
+          {classes.map((activityClass) => (
             <div className="col-lg-4" key={activityClass.id}>
               <div className="single__service">
                 <div className="overly__shape"></div>

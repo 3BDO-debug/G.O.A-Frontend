@@ -19,24 +19,6 @@ const LearnAbout = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
   };
-  const videos = [
-    {
-      src: learnabout,
-      vid: "f02mOEt11OQ",
-    },
-    {
-      src: learnabout,
-      vid: "",
-    },
-    {
-      src: learnabout,
-      vid: "KFVdHDMcepw",
-    },
-    {
-      src: learnabout,
-      vid: "",
-    },
-  ];
 
   return (
     <div className="learn__about__wrapper padding__top">
@@ -44,34 +26,7 @@ const LearnAbout = () => {
         <div className="row">
           <div className="col-lg-6">
             <div className="learn__about__img">
-              <Slider1 {...settings}>
-                {videos.map((video, i) => (
-                  <div className="learn__about__img" key={i}>
-                    <Image src={video.src} alt="learnabout" />
-                    {video.vid === "" ? (
-                      0
-                    ) : (
-                      <>
-                        <ModalVideo
-                          channel="youtube"
-                          youtube={{
-                            autoplay: 0,
-                          }}
-                          isOpen={isOpen}
-                          videoId={video.vid}
-                          onClose={() => setOpen(false)}
-                        />
-                        <button
-                          className="btn video__btn"
-                          onClick={() => setOpen(true)}
-                        >
-                          <FontAwesomeIcon icon={["fas", "play"]} />
-                        </button>
-                      </>
-                    )}
-                  </div>
-                ))}
-              </Slider1>
+              <Image src={learnabout} alt="Learn about" />
             </div>
           </div>
           <div className="col-lg-6">
@@ -82,7 +37,7 @@ const LearnAbout = () => {
               <div className="section__title__container">
                 <h5 className="section__subtitle">Education For Everyone</h5>
                 <h2 className="section__title">
-                  Learn About Our Work Culture At Devschool
+                  Learn About Our Work Culture At Gate of Angels
                 </h2>
                 <p className="section__contnet">
                   As a word from our heart, we love to dedicate for Kids the
@@ -111,12 +66,6 @@ const LearnAbout = () => {
                   Best Care
                 </li>
               </ul>
-              <p className="learn__contnet2">
-                As a word from our heart, we love to dedicate for Kids the
-                valuable things in Life . We go with kids to play, learn, and
-                grow better.
-              </p>
-              button here
             </div>
           </div>
         </div>

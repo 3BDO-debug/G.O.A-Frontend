@@ -38,40 +38,29 @@ const Footer = () => {
               <ul className="footer__list1">
                 <li>
                   <FontAwesomeIcon icon={["fas", "phone-volume"]} />
-                  Phone: +1 516 231 1313
+                  Phone: 0114 770 9971
                 </li>
                 <li>
                   <FontAwesomeIcon icon={["fas", "envelope"]} />
-                  Mail: 0devdesign.studio@gmail.com
+                  Mail: gateofangels20@gmail.com
                 </li>
                 <li>
                   <FontAwesomeIcon icon={["fas", "home"]} />
-                  Address: 3366 Jefferson Street, NEW HAMPTON, IA
+                  Address: 28 Eleco Buildings, El Shatr EL Sades, Zahraa Al
+                  Maadi, Cairo
                 </li>
                 <li>
                   <FontAwesomeIcon icon={["fas", "clock"]} />
-                  Working day: 9am - 5pm EST, Monday - Friday
+                  Working day: 7am - 4pm, Saturday - Thursday
                 </li>
               </ul>
               <ul className="footer__social">
                 <li>
-                  <a href="www.factbook.com">
+                  <a
+                    href="https://www.facebook.com/Gate-of-Angels-100176091870239"
+                    target="__blank"
+                  >
                     <FontAwesomeIcon icon={["fab", "facebook-f"]} />
-                  </a>
-                </li>
-                <li>
-                  <a href="www.factbook.com">
-                    <FontAwesomeIcon icon={["fab", "twitter"]} />
-                  </a>
-                </li>
-                <li>
-                  <a href="www.factbook.com">
-                    <FontAwesomeIcon icon={["fab", "linkedin-in"]} />
-                  </a>
-                </li>
-                <li>
-                  <a href="www.factbook.com">
-                    <FontAwesomeIcon icon={["fab", "instagram"]} />
                   </a>
                 </li>
               </ul>

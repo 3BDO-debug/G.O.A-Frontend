@@ -95,8 +95,11 @@ const Contact = () => {
                     <div className="section__title__container mb-3">
                       <h2 className="section__title">Address</h2>
                       <p className="section__contnet">
-                        Sed ut perspiciatis unde omnis iste natus error sit
-                        voluptatem accusantium doloremque.
+                        We are an English-based nursery. Our mission is delivery
+                        of academics as well caring for children's wellbeing. We
+                        believe in children's capabilities and we thrive to
+                        develop them. By doing that we prepare them for their
+                        first step in their academic life.
                       </p>
                     </div>
                     <div className="address__contact">
@@ -104,28 +107,31 @@ const Contact = () => {
                         <FontAwesomeIcon icon={["fas", "home"]} />
                         <div className="address__content ml-3">
                           <p>Address</p>
-                          <p>4297 Libby Street, Beverly Hills, California</p>
+                          <p>
+                            28 Eleco Buildings, El Shatr EL Sades, Zahraa Al
+                            Maadi, Cairo Governorate 11771
+                          </p>
                         </div>
                       </div>
                       <div className="single__address">
                         <FontAwesomeIcon icon={["fas", "envelope"]} />
                         <div className="address__content ml-3">
                           <p>Email:</p>
-                          <p>0devdesign.studio@gamil.com</p>
+                          <p>gateofangels20@gmail.com</p>
                         </div>
                       </div>
                       <div className="single__address">
                         <FontAwesomeIcon icon={["fas", "phone-volume"]} />
                         <div className="address__content ml-3">
                           <p>Phone Number:</p>
-                          <p>+1 516 231 1313</p>
+                          <p>0114 770 9971</p>
                         </div>
                       </div>
                       <div className="single__address">
                         <FontAwesomeIcon icon={["fas", "clock"]} />
                         <div className="address__content ml-3">
                           <p>Working Time:</p>
-                          <p>Mon - Sat: 8am - 17.30pm</p>
+                          <p>Saturday - Thursday: 7am - 4pm</p>
                         </div>
                       </div>
                     </div>

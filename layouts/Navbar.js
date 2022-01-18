@@ -78,8 +78,6 @@ const Navbar = () => {
     window.addEventListener("scroll", scrollHandleScroll);
   }, []);
 
-  console.log("hello", router);
-
   return (
     <>
       <div className="navbar__top">
@@ -90,11 +88,11 @@ const Navbar = () => {
                 <ul className="nav__top__left">
                   <li>
                     <FontAwesomeIcon icon={["fas", "envelope"]} />{" "}
-                    0devdesign.studio@gmail.coom
+                    gateofangels20@gmail.com
                   </li>
                   <li>
-                    <FontAwesomeIcon icon={["fas", "home"]} /> 4297 Libby
-                    Street, Beverly Hills, California
+                    <FontAwesomeIcon icon={["fas", "home"]} /> 28 Eleco
+                    Buildings, El Shatr EL Sades, Zahraa Al Maadi, Cairo
                   </li>
                 </ul>
               </MotionInView>
@@ -103,23 +101,8 @@ const Navbar = () => {
               <MotionInView variants={varFadeInRight}>
                 <ul className="top__social">
                   <li>
-                    <a href="www.factbook.com">
+                    <a href="https://www.facebook.com/Gate-of-Angels-100176091870239">
                       <FontAwesomeIcon icon={["fab", "facebook-f"]} />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="www.factbook.com">
-                      <FontAwesomeIcon icon={["fab", "twitter"]} />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="www.factbook.com">
-                      <FontAwesomeIcon icon={["fab", "linkedin-in"]} />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="www.factbook.com">
-                      <FontAwesomeIcon icon={["fab", "instagram"]} />
                     </a>
                   </li>
                 </ul>
@@ -139,7 +122,7 @@ const Navbar = () => {
                       {/* <NavLink to="/">Logo</NavLink> */}
                       <Link href="/">
                         <h3 style={{ color: "#f44d19", fontWeight: 700 }}>
-                          G.O.A
+                          Gate of Angels
                         </h3>
                       </Link>
                     </h4>
@@ -169,11 +152,11 @@ const Navbar = () => {
                   </div>
                   <MotionInView variants={varZoomIn}>
                     <div className="contact__btn">
-                      <a href="facebook.com">
+                      <a href="https://wa.me/+201147709971" target="__blank">
                         <span className="whats__ap">
                           <FontAwesomeIcon icon={["fab", "whatsapp"]} />
                         </span>
-                        +1 516 231 1313
+                        0114 770 9971
                       </a>
                     </div>
                   </MotionInView>

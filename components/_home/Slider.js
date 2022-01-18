@@ -8,13 +8,7 @@ import Image from "next/image";
 import banner from "../../assets/images/banner.svg";
 import kid1 from "../../assets/images/kid1.svg";
 import kid2 from "../../assets/images/kid2.svg";
-import {
-  MotionInView,
-  varFadeIn,
-  varFadeInLeft,
-  varFadeInRight,
-} from "../animate";
-import Link from "next/link";
+import { MotionInView, varFadeIn, varFadeInLeft } from "../animate";
 
 const ModalVideo = dynamic(() => import("react-modal-video"), { ssr: false });
 
@@ -51,26 +45,8 @@ const Slider = () => {
     {
       h1a: "We Are Child Care",
       h1: "Professional",
-      p: "You must know that there is nothing higher and stronger and more wholesome and good for life in the future than some good memory,  specially a memory of childhood.",
+      p: "We are an English-based nursery. Our mission is delivery of academics as well caring for children's wellbeing. We believe in children's capabilities and we thrive to develop them. By doing that we prepare them for their first step in their academic life.",
       vid: "KFVdHDMcepw",
-    },
-    {
-      h1a: "We Are Child Care",
-      h1: "Professional",
-      p: "You must know that there is nothing higher and stronger and more wholesome and good for life in the future than some good memory,  specially a memory of childhood.",
-      vid: "",
-    },
-    {
-      h1a: "We Are Child Care",
-      h1: "Professional",
-      p: "You must know that there is nothing higher and stronger and more wholesome and good for life in the future than some good memory,  specially a memory of childhood.",
-      vid: "rzjOLgb2U1U",
-    },
-    {
-      h1a: "We Are Child Care",
-      h1: "Professional",
-      p: "You must know that there is nothing higher and stronger and more wholesome and good for life in the future than some good memory,  specially a memory of childhood.",
-      vid: "",
     },
   ];
   const videoHandle = (vid) => {
