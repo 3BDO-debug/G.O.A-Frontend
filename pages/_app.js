@@ -24,6 +24,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
+        <title>Welcome at Gate of Angels</title>
         <meta
           name="google-site-verification"
           content="vDV8D6rjZ5yhrgEa21AftY1b7Oyv6d1WKruUdfE6EWw"

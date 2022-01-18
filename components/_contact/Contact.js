@@ -96,8 +96,8 @@ const Contact = () => {
                       <h2 className="section__title">Address</h2>
                       <p className="section__contnet">
                         We are an English-based nursery. Our mission is delivery
-                        of academics as well caring for children's wellbeing. We
-                        believe in children's capabilities and we thrive to
+                        of academics as well caring for children&apos;s wellbeing. We
+                        believe in children&apos;s capabilities and we thrive to
                         develop them. By doing that we prepare them for their
                         first step in their academic life.
                       </p>
