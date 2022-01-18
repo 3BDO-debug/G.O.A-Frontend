@@ -1,4 +1,6 @@
 import React from "react";
+// next
+import Head from "next/head";
 // components
 import Page from "../components/Page";
 import Breadcrumb from "../components/Breadcrumb";
@@ -10,6 +12,7 @@ const Contact = () => {
   return (
     <Page>
       <Head>
+        <title>Gate of Angels : Contact us</title>
         <meta name="description" content="Gate of Angels contact us" />
         <meta
           name="keywords"

@@ -10,10 +10,8 @@ const Classes = () => {
   return (
     <Page>
       <Head>
-        <meta
-          name="description"
-          content="Gate of Angels classes"
-        />
+        <title>Gate of Angels : Classes</title>
+        <meta name="description" content="Gate of Angels classes" />
         <meta
           name="keywords"
           content="Nursery, Gate of angels, Gate of angels nursery, nursery at maadi, nurserys "

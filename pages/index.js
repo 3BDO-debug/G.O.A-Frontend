@@ -14,6 +14,8 @@ const Home = () => {
   return (
     <>
       <Head>
+        <title>Gate of Angels nursery</title>
+
         <meta
           name="description"
           content="We are an English-based nursery. Our mission is delivery of academics as well caring for children's wellbeing. We believe in children's capabilities and we thrive to develop them. By doing that we prepare them for their first step in their academic life."

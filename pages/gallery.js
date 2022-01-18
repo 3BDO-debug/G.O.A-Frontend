@@ -29,10 +29,8 @@ const Gallery = () => {
   return (
     <>
       <Head>
-        <meta
-          name="description"
-          content="Gate of Angels gallery"
-        />
+        <title>Gate of Angels : Gallery</title>
+        <meta name="description" content="Gate of Angels gallery" />
         <meta
           name="keywords"
           content="Nursery, Gate of angels, Gate of angels nursery, nursery at maadi, nurserys "
