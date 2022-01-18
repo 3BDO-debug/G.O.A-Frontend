@@ -49,16 +49,16 @@ const LearnAbout = () => {
               <ul className="list__content">
                 <li>
                   <FontAwesomeIcon icon="check-circle" />
-                  Transportation
+                  Learning to share
                 </li>
                 <li>
                   <FontAwesomeIcon icon="check-circle" />
-                  Nutritious Food
+                  Listening to others
                 </li>
                 <li>
                   {" "}
                   <FontAwesomeIcon icon="check-circle" />
-                  Outdoor Games
+                  Taking turns
                 </li>
                 <li>
                   {" "}

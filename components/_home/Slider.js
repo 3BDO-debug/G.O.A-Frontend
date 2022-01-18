@@ -15,7 +15,7 @@ const ModalVideo = dynamic(() => import("react-modal-video"), { ssr: false });
 const Slider = () => {
   // const [addClass, updateClass] = useState(false)
   const [isOpen, setOpen] = useState(false);
-  const [clickVideo, setClickVideo] = useState("KFVdHDMcepw");
+  const [clickVideo, setClickVideo] = useState("667407193");
   const SampleNextArrow = (props) => {
     const { onClick } = props;
     return (
@@ -61,12 +61,12 @@ const Slider = () => {
             <div className="col-lg-6">
               <div className="slider__inner">
                 <ModalVideo
-                  channel="youtube"
+                  channel="vimeo"
                   youtube={{
                     autoplay: 0,
                   }}
                   isOpen={isOpen}
-                  videoId={clickVideo}
+                  videoId="667407193"
                   onClose={() => setOpen(false)}
                 />
                 <Slider1 {...settings}>

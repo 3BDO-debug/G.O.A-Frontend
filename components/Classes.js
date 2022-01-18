@@ -44,7 +44,7 @@ const Classes = ({ discoverMore }) => {
             <div className="section__title__container text-center">
               <h5 className="section__subtitle">Education For Everyone</h5>
               <h2 className="section__title">
-                Learn About Our Work Culture At Devschool
+                Learn About Our Work Culture At Gate of Angels
               </h2>
               <p className="section__contnet section__margin__bottom">
                 As a word from our heart, we love to dedicate for Kids the
