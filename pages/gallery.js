@@ -1,6 +1,8 @@
 import React from "react";
 import Lightbox from "react-image-lightbox";
 import "react-image-lightbox/style.css";
+// next
+import Head from "next/head";
 // material
 import { Avatar } from "@mui/material";
 // contexts
@@ -26,6 +28,18 @@ const Gallery = () => {
 
   return (
     <>
+      <Head>
+        <meta
+          name="description"
+          content="Gate of Angels gallery"
+        />
+        <meta
+          name="keywords"
+          content="Nursery, Gate of angels, Gate of angels nursery, nursery at maadi, nurserys "
+        />
+        <meta name="author" content="Gate of Angels" />
+        <meta name="copyright" content="Gate of Angels" />
+      </Head>
       <Breadcrumb title="Gallery" href="/gallery" />
 
       <div className="container margin__top margin__bottom">
