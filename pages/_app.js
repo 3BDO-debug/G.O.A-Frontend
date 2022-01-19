@@ -26,7 +26,7 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <meta
           name="google-site-verification"
-          content="vDV8D6rjZ5yhrgEa21AftY1b7Oyv6d1WKruUdfE6EWw"
+          content="IAZu2zUKD3VzN41x8Duk8pjXNZsFXfuU5E_XpL8ayCI"
         />
       </Head>
       <NextNProgress color="rgb(244, 77, 25)" height={4} />
