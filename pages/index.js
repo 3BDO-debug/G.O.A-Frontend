@@ -22,7 +22,7 @@ const Home = () => {
         />
         <meta
           name="keywords"
-          content="Nursery, Gate of angels, Gate of angels nursery, nursery at maadi, nurserys "
+          content="Gate of Angels, Nursery, Gate of angels, Gate of angels nursery, nursery at maadi, nurserys "
         />
         <meta name="author" content="Gate of Angels" />
         <meta name="copyright" content="Gate of Angels" />
