@@ -152,11 +152,11 @@ const Navbar = () => {
                   </div>
                   <MotionInView variants={varZoomIn}>
                     <div className="contact__btn">
-                      <a href="https://wa.me/+201147709971" target="__blank">
+                      <a href="https://wa.me/+201123040132" target="__blank">
                         <span className="whats__ap">
                           <FontAwesomeIcon icon={["fab", "whatsapp"]} />
                         </span>
-                        0114 770 9971
+                        0112 304 0132
                       </a>
                     </div>
                   </MotionInView>
