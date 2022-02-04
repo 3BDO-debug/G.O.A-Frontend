@@ -10,7 +10,7 @@ const JoinSession = () => {
           <div className="col-sm-12 offset-sm-0 col-lg-6 text-center offset-lg-5 mx-auto">
             <h5 className="session__sub">Join Our New Session</h5>
             <h2 className="session__title">
-              Call To Enroll Your Child 0114 770 9971
+              Call To Enroll Your Child 0112 304 0132
             </h2>
             <Link href="/contact">
               <a className="session__join">
