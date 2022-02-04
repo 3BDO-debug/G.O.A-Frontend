@@ -38,7 +38,7 @@ const Footer = () => {
               <ul className="footer__list1">
                 <li>
                   <FontAwesomeIcon icon={["fas", "phone-volume"]} />
-                  Phone: 0114 770 9971
+                  Phone: 0112 304 0132
                 </li>
                 <li>
                   <FontAwesomeIcon icon={["fas", "envelope"]} />

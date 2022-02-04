@@ -124,7 +124,7 @@ const Contact = () => {
                         <FontAwesomeIcon icon={["fas", "phone-volume"]} />
                         <div className="address__content ml-3">
                           <p>Phone Number:</p>
-                          <p>0114 770 9971</p>
+                          <p>0112 304 0132</p>
                         </div>
                       </div>
                       <div className="single__address">
