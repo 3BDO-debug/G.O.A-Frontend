@@ -95,10 +95,10 @@ const Footer = () => {
               ©2021 Gate of Angels powered by
               <a
                 style={{ color: "#f44d19", marginLeft: "5px" }}
-                href="https://codehustle.live"
+                href="https://www.basedontech.com"
                 target="__blank"
               >
-                Code Hustle
+                Based On Tech
               </a>
             </p>
           </div>
