@@ -15,9 +15,6 @@ const ModalVideo = dynamic(() => import("react-modal-video"), { ssr: false });
 const WhyRegister = () => {
   const [isOpen, setOpen] = useState(false);
 
-  useEffect(() => {
-    console.log("ll");
-  }, []);
   return (
     <div className="why__register__wrapper padding__bottom">
       <div className="container-fluid p-0">
@@ -32,7 +29,7 @@ const WhyRegister = () => {
                     autoplay: 0,
                   }}
                   isOpen={isOpen}
-                  videoId="667398102"
+                  videoId="667405817"
                   onClose={() => setOpen(false)}
                 />
                 <button
