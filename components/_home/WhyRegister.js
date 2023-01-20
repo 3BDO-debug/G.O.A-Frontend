@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import dynamic from "next/dynamic";
 import Image from "next/image";
 // components
-import whyregister from "../../assets/images/whyregister.jpg";
+import whyregister from "../../assets/images/whyregister2.jpeg";
 import school from "../../assets/images/school.png";
 import teacher from "../../assets/images/teacher.png";
 import book from "../../assets/images/book.png";
