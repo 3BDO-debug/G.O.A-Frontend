@@ -80,6 +80,24 @@ const Navbar = () => {
 
   return (
     <>
+      {/* Announcement Bar */}
+      <div
+        style={{
+          backgroundColor: "#f44336",
+          color: "white",
+          textAlign: "center",
+          padding: "10px 0",
+          fontWeight: "bold",
+          fontSize: "1.1rem",
+          direction: "rtl",
+          fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
+          userSelect: "none",
+          zIndex: 10000,
+          position: "relative",
+        }}
+      >
+        الحضانة مغلقة حاليا !
+      </div>
       <div className="navbar__top">
         <div className="container">
           <div className="row">
