@@ -131,7 +131,7 @@ const Contact = () => {
                         <FontAwesomeIcon icon={["fas", "clock"]} />
                         <div className="address__content ml-3">
                           <p>Working Time:</p>
-                          <p>Saturday - Thursday: 7am - 4pm</p>
+                          <p>مغلق حاليا</p>
                         </div>
                       </div>
                     </div>
